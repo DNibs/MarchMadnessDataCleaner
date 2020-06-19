@@ -44,7 +44,7 @@ if len(bad_tm_names) > 0:
 
 print('Team Names all match.')
 
-print('Merging tournament data and master data into output database file.')
+print('Merging tournament data and master data into output database file...')
 # Fill out tournament results data in output database
 for i in range(0, master_count):
     print('Row {} of {}'.format(i, master_count))
